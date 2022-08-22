@@ -96,13 +96,13 @@ body{
     grid-gap: 16px;
     margin: 0px 165px;
 }
-.icon img{
+.icon>.market> img{
     /* padding-left: 60px; */
     transition: transform 1s ease-in-out;
     width: 100%;
     height: 80%;
 }
-.icon>img:hover{
+.icon>.market>img:hover{
     cursor: pointer;
     transform: scale(1.08);
 }
